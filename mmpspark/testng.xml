@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Sanity Suite" verbose="10">
+<suite name="Sanity Suite" verbose="15">
 	<test thread-count="5" name="Sanity Tests">
 	<parameter name="username" value="ria1"/>
 	<parameter name="password" value="Ria12345"/>
@@ -8,5 +8,4 @@
 			<class name="org.iit.selenium.mmpspark.EditProfileTests" />
 		</classes>
 	</test> <!-- Test -->
-	 
 </suite> <!-- Suite -->
